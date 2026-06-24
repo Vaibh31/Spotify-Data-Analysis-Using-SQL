@@ -1,8 +1,8 @@
 
 # 🎵 Spotify Data Analysis using SQL
-
+<p align="center">
 <img src="spotify_logo.png" width="700" height="300">
-
+</p>
 ## 📌 Project Overview
 
 This project focuses on analyzing Spotify music data using PostgreSQL. The goal is to answer real-world business questions and uncover meaningful insights related to tracks, artists, albums, streaming performance, audience engagement, and music characteristics. The project demonstrates practical SQL skills including data exploration, aggregations, subqueries, Common Table Expressions (CTEs), and Window Functions.
