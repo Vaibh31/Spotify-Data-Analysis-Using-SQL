@@ -29,22 +29,14 @@ This analysis helps stakeholders understand:
 - 
 ## 📂 Dataset Information
 
-The dataset contains information about:
+1. Data Exploration
+Before diving into SQL, it’s important to understand the dataset thoroughly. The dataset contains attributes such as:
 
-- Artists
-- Tracks
-- Albums
-- Album Types
-- Danceability
-- Energy
-- Acousticness
-- Liveness
-- Tempo
-- Views
-- Likes
-- Comments
-- Streams
-- Platform Information
+Artist: The performer of the track.
+Track: The name of the song.
+Album: The album to which the track belongs.
+Album_type: The type of album (e.g., single or album).
+Various metrics such as danceability, energy, loudness, tempo, and more.
 
 ## 🗄️ Database Schema
 
