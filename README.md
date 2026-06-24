@@ -122,21 +122,6 @@ ORDER BY total_tracks DESC;
 
 ---
 
----
-
-## 6. Calculate the Average Danceability of Tracks in Each Album
-
-```sql
-SELECT
-    album,
-    ROUND(AVG(danceability)::numeric, 3) AS avg_danceability
-FROM spotify
-GROUP BY album
-ORDER BY avg_danceability DESC;
-```
-
----
-
 ## 🟡 Medium Level
 
 ### 6. Calculate the Average Danceability of Tracks in Each Album
