@@ -73,7 +73,9 @@ CREATE TABLE spotify (
 
 # 📊 Business Problems and Solutions
 
-## 1. Retrieve the Names of All Tracks That Have More Than 1 Billion Streams
+## 🟢 Easy Level
+
+### 1. Retrieve the Names of All Tracks That Have More Than 1 Billion Streams
 
 ```sql
 SELECT track
@@ -81,9 +83,7 @@ FROM spotify
 WHERE stream > 1000000000;
 ```
 
----
-
-## 2. List All Albums Along with Their Respective Artists
+### 2. List All Albums Along with Their Respective Artists
 
 ```sql
 SELECT DISTINCT
@@ -93,9 +93,7 @@ FROM spotify
 ORDER BY artist, album;
 ```
 
----
-
-## 3. Get the Total Number of Comments for Tracks Where licensed = TRUE
+### 3. Get the Total Number of Comments for Tracks Where licensed = TRUE
 
 ```sql
 SELECT SUM(comments) AS total_comments
@@ -103,9 +101,7 @@ FROM spotify
 WHERE licensed = TRUE;
 ```
 
----
-
-## 4. Find All Tracks That Belong to the Album Type 'single'
+### 4. Find All Tracks That Belong to the Album Type 'single'
 
 ```sql
 SELECT track
@@ -113,9 +109,7 @@ FROM spotify
 WHERE album_type = 'single';
 ```
 
----
-
-## 5. Count the Total Number of Tracks by Each Artist
+### 5. Count the Total Number of Tracks by Each Artist
 
 ```sql
 SELECT
@@ -125,6 +119,8 @@ FROM spotify
 GROUP BY artist
 ORDER BY total_tracks DESC;
 ```
+
+---
 
 ---
 
