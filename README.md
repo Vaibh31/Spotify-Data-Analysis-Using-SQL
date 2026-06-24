@@ -178,8 +178,9 @@ FROM spotify
 WHERE stream > views;
 ```
 
----
-## 11. Find the Top 3 Most-Viewed Tracks for Each Artist Using Window Functions
+## 🔴 Advanced Level
+
+### 11. Find the Top 3 Most-Viewed Tracks for Each Artist Using Window Functions
 
 ```sql
 WITH ranked_tracks AS (
@@ -201,9 +202,7 @@ FROM ranked_tracks
 WHERE rank_num <= 3;
 ```
 
----
-
-## 12. Find Tracks Where the Liveness Score Is Above the Average
+### 12. Find Tracks Where the Liveness Score Is Above the Average
 
 ```sql
 SELECT
@@ -218,9 +217,7 @@ WHERE liveness >
 );
 ```
 
----
-
-## 13. Calculate the Difference Between the Highest and Lowest Energy Values for Tracks in Each Album
+### 13. Calculate the Difference Between the Highest and Lowest Energy Values for Tracks in Each Album
 
 ```sql
 WITH album_energy AS (
@@ -240,9 +237,7 @@ FROM album_energy
 ORDER BY energy_difference DESC;
 ```
 
----
-
-## 14. Find Tracks Where the Energy-to-Liveness Ratio Is Greater Than 1.2
+### 14. Find Tracks Where the Energy-to-Liveness Ratio Is Greater Than 1.2
 
 ```sql
 SELECT
@@ -255,9 +250,7 @@ FROM spotify
 WHERE (energy / NULLIF(liveness, 0)) > 1.2;
 ```
 
----
-
-## 15. Calculate the Cumulative Sum of Likes for Tracks Ordered by Number of Views
+### 15. Calculate the Cumulative Sum of Likes for Tracks Ordered by Number of Views
 
 ```sql
 SELECT
@@ -271,8 +264,6 @@ SELECT
 FROM spotify
 ORDER BY views;
 ```
-
----
 
 ## 📚 SQL Concepts Covered
 
