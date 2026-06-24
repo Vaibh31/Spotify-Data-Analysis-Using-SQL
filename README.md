@@ -14,6 +14,16 @@ This project focuses on analyzing Spotify music data using PostgreSQL. The goal 
 - Apply advanced SQL techniques to solve business problems.
 - Generate actionable insights from music streaming data.
 
+## Business Value
+
+This analysis helps stakeholders understand:
+
+- Top-performing artists and tracks
+- Audience engagement through views, likes, and comments
+- Album performance and popularity
+- Platform-wise content consumption trends
+- Music characteristics such as energy, danceability, and liveness
+- 
 ## 📂 Dataset Information
 
 The dataset contains information about:
@@ -32,13 +42,6 @@ The dataset contains information about:
 - Comments
 - Streams
 - Platform Information
-
-## 🛠️ Tools Used
-
-- PostgreSQL
-- pgAdmin 4
-- SQL
-- Git & GitHub
 
 ## 🗄️ Database Schema
 
