@@ -1,7 +1,7 @@
 
 # 🎵 Spotify Data Analysis using SQL
 
-<img src="logo.png" width="400" height="200">
+<img src="spotify_logo.png" width="400" height="200">
 
 ## 📌 Project Overview
 
