@@ -26,9 +26,7 @@ This analysis helps stakeholders understand:
 - Album performance and popularity
 - Platform-wise content consumption trends
 - Music characteristics such as energy, danceability, and liveness
-- 
-## 📂 Dataset Information
-
+  
 ## 📂 Dataset Information
 
 The dataset contains Spotify track-level data, combining artist information, album details, audio features, and audience engagement metrics. It is designed for analyzing music performance and streaming trends.
