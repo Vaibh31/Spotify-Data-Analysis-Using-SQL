@@ -137,7 +137,20 @@ ORDER BY avg_danceability DESC;
 
 ---
 
-## 7. Find the Top 5 Tracks with the Highest Energy Values
+## 🟡 Medium Level
+
+### 6. Calculate the Average Danceability of Tracks in Each Album
+
+```sql
+SELECT
+    album,
+    ROUND(AVG(danceability)::numeric, 3) AS avg_danceability
+FROM spotify
+GROUP BY album
+ORDER BY avg_danceability DESC;
+```
+
+### 7. Find the Top 5 Tracks with the Highest Energy Values
 
 ```sql
 SELECT
@@ -149,9 +162,7 @@ ORDER BY energy DESC
 LIMIT 5;
 ```
 
----
-
-## 8. List All Tracks Along with Their Views and Likes Where official_video = TRUE
+### 8. List All Tracks Along with Their Views and Likes Where official_video = TRUE
 
 ```sql
 SELECT
@@ -162,9 +173,7 @@ FROM spotify
 WHERE official_video = TRUE;
 ```
 
----
-
-## 9. For Each Album, Calculate the Total Views of All Associated Tracks
+### 9. For Each Album, Calculate the Total Views of All Associated Tracks
 
 ```sql
 SELECT
@@ -175,9 +184,7 @@ GROUP BY album
 ORDER BY total_views DESC;
 ```
 
----
-
-## 10. Retrieve the Track Names That Have Been Streamed on Spotify More Than YouTube
+### 10. Retrieve the Track Names That Have Been Streamed on Spotify More Than YouTube
 
 ```sql
 SELECT
@@ -187,7 +194,6 @@ WHERE stream > views;
 ```
 
 ---
-
 ## 11. Find the Top 3 Most-Viewed Tracks for Each Artist Using Window Functions
 
 ```sql
