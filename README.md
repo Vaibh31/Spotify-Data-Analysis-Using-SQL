@@ -29,14 +29,32 @@ This analysis helps stakeholders understand:
 - 
 ## 📂 Dataset Information
 
-1. Data Exploration
-Before diving into SQL, it’s important to understand the dataset thoroughly. The dataset contains attributes such as:
+## 📂 Dataset Information
 
-Artist: The performer of the track.
-Track: The name of the song.
-Album: The album to which the track belongs.
-Album_type: The type of album (e.g., single or album).
-Various metrics such as danceability, energy, loudness, tempo, and more.
+The dataset contains Spotify track-level data, combining artist information, album details, audio features, and audience engagement metrics. It is designed for analyzing music performance and streaming trends.
+
+### Key Attributes
+
+| Attribute | Description |
+|-----------|-------------|
+| Artist | Performer of the track |
+| Track | Name of the song |
+| Album | Album to which the track belongs |
+| Album Type | Type of release (Album, Single, etc.) |
+| Danceability | Measure of how suitable a track is for dancing |
+| Energy | Intensity and activity level of a track |
+| Views | Total YouTube views |
+| Likes | Total likes received |
+| Stream | Total Spotify streams |
+| Liveness | Presence of a live audience in the recording |
+
+### Analysis Focus
+
+- Artist Performance Analysis
+- Track Popularity & Streaming Trends
+- Album Performance Evaluation
+- Audience Engagement Analysis
+- Audio Feature Exploration
 
 ## 🗄️ Database Schema
 
